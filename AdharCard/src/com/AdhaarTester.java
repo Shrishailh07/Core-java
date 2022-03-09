@@ -9,8 +9,8 @@ public static void main(String[] mj)
 	ad.setAdhaarcardno(324554649809l);
 	ad.setAge((byte) 23);
 	ad.setGender("Male");
-	
 	System.out.println(ad);
+	
 	
 AdhaarCard ab = new AdhaarCard();
 	
@@ -18,6 +18,8 @@ AdhaarCard ab = new AdhaarCard();
 	ab.setAge((byte) 24);
 	ab.setGender("Female");
 	System.out.println(ab);
+	System.out.println(ab.hashCode());
+	System.out.println(ab.equals(ad));
 	
 AdhaarCard ac = new AdhaarCard();
 	

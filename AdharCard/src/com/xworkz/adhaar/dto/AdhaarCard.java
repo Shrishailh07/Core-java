@@ -42,4 +42,18 @@ public String toString()
   			
 
 }
+@Override
+	public int hashCode() {
+	
+		return this.age;
+	}
+@Override
+public boolean equals(Object obj) {
+	AdhaarCard ad = (AdhaarCard)obj;
+	if(this.Adhaarcardno==ad.Adhaarcardno)
+		
+		return true;
+	return false;
+	}
+
 }
