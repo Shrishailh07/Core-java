@@ -1,0 +1,78 @@
+1)by final keyword
+2) 2 types-primitive dataType and non primitive dataType
+3) bcz the data is collected in prefered format
+4)a keyword cannot be used as identifier
+5)variable initializing is passing the value to dataType with reference
+6)Array is collection of similar datatype
+7)yes
+8)heap area
+9)we can pass multiple datatypes in an array
+10)An array without anonymous is known as Anonymous Array
+11)
+class ABC
+{
+public static void main(String [] args)
+{
+String []names = {"shrishail","Manish","Anand","Ganesh","pitti"};
+System.out.println(names[2]);
+
+int []id = {1,2,3,4,5};
+System.out.println(id[2]);
+}
+}
+
+12)------------
+
+13)
+public class Arrayy {  
+public static void main(String[] args) 
+{ 
+String [] name = new String [] {"ganesh","chetan","pradeep", "ganesh"};  
+System.out.println(name[0].equalsIgnoreCase(name[3]));  
+        
+
+
+
+
+14)
+class Number {
+public static void main( String args[] ) {
+int num[] = {1, 3, 5, 2, 4};
+System.out.println(num[6])
+}
+}
+
+15)compilation and execution error
+
+16)----------------
+
+17)static keyword is memory management
+static variables are declared with static keyword
+ and static methods declared inside the class and outside the main method with static keyword
+
+18)yes we can overload static method (method overloading)--main method--public static void main() 
+
+19)JVM calls without initializing the class
+
+20)set of instructions that runs only when class is loaded
+
+21)No
+
+22)NO
+
+23)calling 1 constructor inside another constructor ny using this(); keyword (same class) and super(); keyword(diff. class)
+
+
+24)Initializing the object 
+
+25)it will convert into method of the class
+
+26)NO
+
+27)upcasting
+
+28)class is blueprint of an object and object is real world entity
+
+29)6
+
+30) Don't know
