@@ -1,0 +1,178 @@
+
+1)write a syntax of basic structure HTML?
+<!doctype>
+<html>
+    <head>
+      <body>
+     </body>
+    </head>
+</html>
+----------------------------------------------------------------
+2)What is Attribute. Write a Syntax with an example.?
+Attributes are modifier of an HTML element type.
+example:- <h1 title = "Xworkz">Java FullStack Course</h1>
+-----------------------------------------------------------------
+3)Write Syntax for image tag?
+<img src="MSDhoni.jpg" width="500" height="600">
+-----------------------------------------------------------------
+4)what is hyperlink.Write a syntax with an example?
+ it is an item like a word or button that points to another location.
+<p><a href="https://www.google.com/">Google</a></p>
+-----------------------------------------------------------------
+5)wtite a syntax for creating a table with an example.
+
+<table>
+  <tr>
+    <td>Email</td>
+    <td>name</td>
+    <td>address</td>
+  </tr>
+</table>
+-----------------------------------------------------------------------
+6)create registration form
+<!doctype>
+<html>
+<head>
+<title>Job Application Form</title>
+<body>
+    <form>
+    <table>
+    <tr>
+    <td>
+    <label><b>Full Name</b></label>
+        </td>
+    </tr>
+<tr>
+    <td>
+        <label>First Name</label>
+        <input type="text" name="first name" placeholder="Enter Name">
+    </tr>
+    </td>
+        <tr>
+            <td>
+                <label>Middle Name</label>
+                <input type="text" name="middle name"placeholder="Enter Middle Name">
+                </tr>
+                </td>
+        <tr>
+            <td>
+        <label>Last Name</label>
+        <input type="text" name="last name" placeholder="Enter Last Name">
+    </td>
+    </tr>
+
+    <tr>
+        <td>
+                <label><b>Date of Birth</b></label>
+                <input type="date">
+            </td>
+        </tr>
+
+    <div>
+        <tr>
+            <td> 
+                <label><b>Gender</b></label>
+                <input type="radio" value="male" name="gender">male
+                <input type="radio" value="female" name="gender">female
+                
+                </td>
+        </tr>
+      
+
+        <tr>
+            <td>
+                <label><b>Age</b></label>
+                <input type="number" placeholder="Enter age" min="1" max="10">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label><b>Enter Address</b></label>
+                <textarea  cols="20" rows="10" ></textarea>
+            </td>
+            </tr>
+
+            
+
+            <tr><td>
+                <label>Upload file</label>
+                <input type="file" name="file upload">
+                <input type="submit"><br>
+                <input type="submit"><br>
+                <input type="reset"><br>
+            </td></tr>
+            </form>
+</body>
+</head>
+</html>
+
+==================================================================================
+1)write typs of css with syntax ?
+
+selector { Property: value; }
+1)
+<html>
+
+ <head>
+    	<title>CSS</title>
+             
+    						
+ </head>
+   <body>
+<h1 style="color: red; font-size: xx-large;">Monster</h1>
+</html>
+..................................................................................................
+2.Internal css
+	Syntax:
+			<html>
+			<head>
+    			<title>CSS</title>			
+			<style>
+       			selector{
+				property:value;
+							}
+    				/style>
+    			</head>
+			<body>
+				<h4 style="color: pink; font-size: x-large;">Sph </h4>
+			</html>
+...................................................................................................
+	3.External css
+	Syntax:
+			<html>
+			<head>
+    			<title>
+        			CSS
+    		         	     </title>
+			<link href="path of the external style sheets">
+					
+    			</head>
+			<body>
+			<h4 style="color: orange; font-size: x-large;">S</h4>
+			</html>
+
+-----------------------------------------------------------------------------
+
+2)The selector in CSS is used to select all the elements in an HTML document.
+
+<style>
+    selector{
+		property:value;
+	}
+</style>
+
+---------------------------------------------------------------------------------
+3)div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+
+
+
+
+
